@@ -1,0 +1,137 @@
+
+.cart{
+    display: block;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-details h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.6rem;
+}
+
+.item-details p {
+    margin: 5px 0;
+    font-size: 1.4rem;
+    color: #555;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.quantity button {
+    background: #ddd;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    line-height: 1.4rem;
+}
+
+.quantity button:hover {
+    background: #ccc;
+}
+
+.quantity input {
+    width: 50px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    height: 30px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+
+.remove {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.remove:hover {
+    background: #e53935;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+.empty-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.empty-cart p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.empty-cart button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 1px soild #ddd ;
+}
