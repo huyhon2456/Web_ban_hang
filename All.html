@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        <title>Phụ Kiện Thời Trang</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./assets/css/header.css">
+        <link rel="stylesheet" href="./assets/icon/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="./assets/css/All.css">
+    </head>
+<body>
+    <div class="wrapper">
+        <div class="header__top js-header__top">  
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/img/kim-cuong-vector-99-removebg-preview.png" alt="Logo">
+                </a>
+            </div>
+            <div class="search-cart">
+                <div class="search-btn">
+                    <i class="ti-search"></i>
+                </div>
+                <input type="text" placeholder="Tìm kiếm...">
+                <div class="search-history">
+                    <h3 class="search-history-heading">Lịch sử tìm kiếm</h3>
+                        <ul class="search-history-list">
+                            <li class="search-history-item">
+                                <a href="#" class="search-history-link">Vòng Tay</a>
+                            </li>
+                            <li class="search-history-item">
+                                <a href="#" class="search-history-link">Vòng Tay</a>
+                            </li>
+                            <li class="search-history-item">
+                                <a href="#" class="search-history-link">Vòng Tay</a>
+                            </li>
+                            <li class="search-history-item">
+                                <a href="#" class="search-history-link">Vòng Tay</a>
+                            </li>
+                            <li class="search-history-item">
+                                <a href="#" class="search-history-link">Vòng Tay</a>
+                            </li>
+                            <li class="search-history-item">
+                                <a href="#" class="search-history-link">Vòng Tay</a>
+                            </li>
+                        </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>         
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a class="shop-cart" href="#">
+                            <i class="ti-shopping-cart "></i> Giỏ Hàng
+                            <span class="shop-cart-notice">3</span>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item header__navbar-item--separate register-form">Đăng Ký</li>
+                    <li class="header__navbar-item login-form">Đăng Nhập</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__bottom js-header__bottom">
+            <nav class="header__bottom-navbar">
+                <ul class="header__bottom-navbar-list">
+                    <li class="header__bottom-navbar-item"><a href="All.html">All</a></li>
+                    <li class="header__bottom-navbar-item"><a href="KhuyenTai.html">Khuyên Tai</a></li>
+                    <li class="header__bottom-navbar-item"><a href="VongTay.html">Vòng Tay</a></li>
+                    <li class="header__bottom-navbar-item"><a href="DayChuyen.html">Dây Chuyền</a></li>
+                    <li class="header__bottom-navbar-item"><a href="Nhan.html">Nhẫn</a></li>
+                    <li class="header__bottom-navbar-item"><a href="TongHop.html">Tổng Hợp</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="x-section">
+            <div class="x-section-background"></div>
+          <div class="x-element">
+            <span class="x-breadcrumb-item">
+            <a href="/" class="x-text">
+              Home <span class="x-icon">&gt;</span>
+          
+            </a>
+          </span>
+          <span class="x-breadcrumb-item">
+            <a href="/all" class="x-text">
+              All 
+            </a>
+          </span>
+          </div>
+          <div class="x-element">
+            <div class="x-line horizontal">
+              <div class="line-container"></div>
+            </div>
+          </div>
+        </section>
+        <div class="container">
+            <aside class="sidebar">
+                <div class="category">
+                    <h3>DANH MỤC</h3>
+                    <ul>
+                        <li><input type="checkbox"> Tất cả sản phẩm</li>
+                        <li><input type="checkbox"> Khuyên tai</li>
+                        <li><input type="checkbox"> Nhẫn</li>
+                        <li><input type="checkbox"> Vòng tay</li>
+                        <li><input type="checkbox"> Dây chuyền</li>
+                    </ul>
+                </div>
+                <div class="classification">
+                    <h3>PHÂN LOẠI</h3>
+                    <ul>
+                        <li><input type="checkbox"> Vòng tay</li>
+                        <li><input type="checkbox"> Dây chuyền</li>
+                        <li><input type="checkbox"> Đen</li>
+                        <li><input type="checkbox"> Bạc</li>
+                    </ul>
+                </div>
+                <div class="price">
+                    <h3>GIÁ SẢN PHẨM</h3>
+                    <div class="range-slider">
+                        <input type="range" id="min-range" min="0" max="2000000" step="1000" value="0">
+                        <input type="range" id="max-range" min="0" max="2000000" step="1000" value="2000000">
+                    </div>
+                    <div id="range-values">
+                        0 ₫ - 2.000.000 ₫
+                    </div>
+                </div>
+            </aside>
+            <main class="main-content">
+                <div class="sort">
+                    <label for="sort">SẮP XẾP THEO</label>
+                    <select id="sort">
+                        <option value="latest">Mới nhất</option>
+                        <option value="low-high">Giá từ thấp tới cao</option>
+                        <option value="high-low">Giá từ cao xuống thấp</option>
+                        <option value="a-z">Tên từ A đến Z</option>
+                        <option value="z-a">Tên từ Z đến A</option>
+                        <option value="best-seller">Bán chạy nhất</option>
+                    </select>
+                </div>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="image1.jpg" alt="The Harmony">
+                        <div class="product-info">
+                            <h4>The Harmony</h4>
+                            <p>Giá bán: 145.000 ₫</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="image2.jpg" alt="The Eternal Ring">
+                        <div class="product-info">
+                            <h4>The Eternal Ring</h4>
+                            <p>Giá bán: 145.000 ₫</p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="image3.jpg" alt="The Shadow">
+                        <div class="product-info">
+                            <h4>The Shadow</h4>
+                            <p>Giá bán: 145.000 ₫</p>
+                        </div>
+                    </div>
+                    <!-- Add more products as needed -->
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="./assets/js/header_2.js"></script>
+    <script defer src="./assets/js/header_1.js"></script>
+</body>
+</html>

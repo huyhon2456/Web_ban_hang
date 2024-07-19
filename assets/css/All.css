@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+}
+.x-section {
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.x-section-background {
+    background-color: #fff;
+}
+
+.x-element {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.x-line.horizontal {
+    width: 100%;
+    margin: 0;
+
+}
+
+.line-container {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-top: 7px;
+}
+
+.x-breadcrumb-item {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.x-text {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+.x-text:hover {
+    text-decoration: underline;
+}
+
+.x-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    width: 75%;
+    padding: 20px;
+}
+
+.sort {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sort label {
+    margin-right: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 10px;
+}
+.range-slider {
+    position: relative;
+    width: 100%;
+}
+
+.range-slider input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    position: absolute;
+    pointer-events: none;
+}
+
+.range-slider input[type="range"]:first-of-type {
+    pointer-events: auto;
+    z-index: 2;
+}
+
+.range-slider input[type="range"]:last-of-type {
+    pointer-events: auto;
+    z-index: 1;
+}
+
+.range-slider input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+.range-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#range-values {
+    margin-top: 10px;
+}
