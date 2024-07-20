@@ -5,18 +5,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
         <title>Phụ Kiện Thời Trang</title>
+        <meta name="description" content="Phụ Kiện Thời Trang - Mua các sản phẩm trang sức độc đáo và thời thượng">
+        <meta name="keywords" content="phụ kiện, thời trang, trang sức, khuyên tai, vòng tay, dây chuyền, nhẫn">
+
+        <!-- Normalize CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <!-- AOS CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="./assets/css/header.css">
         <link rel="stylesheet" href="./assets/icon/themify-icons/themify-icons.css">
         <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="./assets/css/All.css">
+        
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <link rel="stylesheet" href="./assets/css/All.css">
     </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper" data-aos="fade-up">
         <div class="header__top js-header__top">  
             <div class="logo">
                 <a href="./index.html">
@@ -34,21 +43,7 @@
                             <li class="search-history-item">
                                 <a href="#" class="search-history-link">Vòng Tay</a>
                             </li>
-                            <li class="search-history-item">
-                                <a href="#" class="search-history-link">Vòng Tay</a>
-                            </li>
-                            <li class="search-history-item">
-                                <a href="#" class="search-history-link">Vòng Tay</a>
-                            </li>
-                            <li class="search-history-item">
-                                <a href="#" class="search-history-link">Vòng Tay</a>
-                            </li>
-                            <li class="search-history-item">
-                                <a href="#" class="search-history-link">Vòng Tay</a>
-                            </li>
-                            <li class="search-history-item">
-                                <a href="#" class="search-history-link">Vòng Tay</a>
-                            </li>
+                            <!-- More search history items -->
                         </ul>
                     <div class="clear"></div>
                 </div>
@@ -57,7 +52,7 @@
                 <ul class="header__navbar-list">
                     <li class="header__navbar-item">
                         <a class="shop-cart" href="#">
-                            <i class="ti-shopping-cart "></i> Giỏ Hàng
+                            <i class="ti-shopping-cart"></i> Giỏ Hàng
                             <span class="shop-cart-notice">3</span>
                         </a>
                     </li>
@@ -78,13 +73,13 @@
                 </ul>
             </nav>
         </div>
+
         <section class="x-section">
             <div class="x-section-background"></div>
           <div class="x-element">
             <span class="x-breadcrumb-item">
             <a href="/" class="x-text">
               Home <span class="x-icon">&gt;</span>
-          
             </a>
           </span>
           <span class="x-breadcrumb-item">
@@ -93,6 +88,7 @@
             </a>
           </span>
           </div>
+
           <div class="x-element">
             <div class="x-line horizontal">
               <div class="line-container"></div>
@@ -100,7 +96,7 @@
           </div>
         </section>
         <div class="container">
-            <aside class="sidebar">
+            <aside class="sidebar" data-aos="fade-right">
                 <div class="category">
                     <h3>DANH MỤC</h3>
                     <ul>
@@ -111,27 +107,15 @@
                         <li><input type="checkbox"> Dây chuyền</li>
                     </ul>
                 </div>
-                <div class="classification">
-                    <h3>PHÂN LOẠI</h3>
-                    <ul>
-                        <li><input type="checkbox"> Vòng tay</li>
-                        <li><input type="checkbox"> Dây chuyền</li>
-                        <li><input type="checkbox"> Đen</li>
-                        <li><input type="checkbox"> Bạc</li>
-                    </ul>
-                </div>
                 <div class="price">
                     <h3>GIÁ SẢN PHẨM</h3>
                     <div class="range-slider">
                         <input type="range" id="min-range" min="0" max="2000000" step="1000" value="0">
-                        <input type="range" id="max-range" min="0" max="2000000" step="1000" value="2000000">
-                    </div>
-                    <div id="range-values">
-                        0 ₫ - 2.000.000 ₫
-                    </div>
+                  </div>
+                    <div id="range-values">0 ₫ - 2.000.000 ₫</div>
                 </div>
             </aside>
-            <main class="main-content">
+            <main class="main-content" data-aos="fade-left">
                 <div class="sort">
                     <label for="sort">SẮP XẾP THEO</label>
                     <select id="sort">
@@ -143,33 +127,99 @@
                         <option value="best-seller">Bán chạy nhất</option>
                     </select>
                 </div>
-                <div class="product-grid">
-                    <div class="product">
-                        <img src="image1.jpg" alt="The Harmony">
-                        <div class="product-info">
-                            <h4>The Harmony</h4>
-                            <p>Giá bán: 145.000 ₫</p>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <img src="image2.jpg" alt="The Eternal Ring">
-                        <div class="product-info">
-                            <h4>The Eternal Ring</h4>
-                            <p>Giá bán: 145.000 ₫</p>
-                        </div>
-                    </div>
-                    <div class="product">
-                        <img src="image3.jpg" alt="The Shadow">
-                        <div class="product-info">
-                            <h4>The Shadow</h4>
-                            <p>Giá bán: 145.000 ₫</p>
-                        </div>
-                    </div>
-                    <!-- Add more products as needed -->
-                </div>
+                <section class="product-list">
+                    <ul>
+                        <li data-aos="zoom-in">
+                            <div class="box-hover">
+                                <img src="./assets/img/h.png" alt="">
+                                <img src="./assets/img/hh.png" alt="" class="img-change">
+                            </div>     
+                            <h3>kim cương to đùng</h3>
+                            <p>Price: 145.000 ₫</p>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="box-hover">
+                                <img src="./assets/img/h.png" alt="">
+                                <img src="./assets/img/hh.png" alt="" class="img-change">
+                                <div class="product-overlay">
+                                    <div class="product-description">
+                                        <h3>là kim cương nhưng xấu</h3>
+                                        <p>ai lấy thì cho không phải xin</p>
+                                        <p>Mô tả sản phẩm chi tiết ở đây...cái gì mà nó giữ dần quá trời</p>
+                                        <button onclick="addToCart()">Thêm vào giỏ hàng</button>
+                                    </div>
+                                </div>
+                            </div>     
+                            <h3>kim cương to đùng</h3>
+                            <p>Price: 145.000 ₫</p>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="box-hover">
+                                <img src="./assets/img/h.png" alt="">
+                                <img src="./assets/img/hh.png" alt="" class="img-change">
+                            </div>     
+                            <h3>kim cương to đùng</h3>
+                            <p>Price: 145.000 ₫</p>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="box-hover">
+                                <img src="./assets/img/h.png" alt="">
+                                <img src="./assets/img/hh.png" alt="" class="img-change">
+                            </div>     
+                            <h3>kim cương to đùng</h3>
+                            <p>Price: 145.000 ₫</p>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="box-hover">
+                                <img src="./assets/img/h.png" alt="">
+                                <img src="./assets/img/hh.png" alt="" class="img-change">
+                            </div>     
+                            <h3>kim cương to đùng</h3>
+                            <p>Price: 145.000 ₫</p>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="box-hover">
+                                <img src="./assets/img/h.png" alt="">
+                                <img src="./assets/img/hh.png" alt="" class="img-change">
+                            </div>     
+                            <h3>kim cương to đùng</h3>
+                            <p>Price: 145.000 ₫</p>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="box-hover">
+                                <img src="./assets/img/h.png" alt="">
+                                <img src="./assets/img/hh.png" alt="" class="img-change">
+                            </div>     
+                            <h3>kim cương to đùng</h3>
+                            <p>Price: 145.000 ₫</p>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="box-hover">
+                                <img src="./assets/img/h.png" alt="">
+                                <img src="./assets/img/hh.png" alt="" class="img-change">
+                            </div>     
+                            <h3>kim cương to đùng</h3>
+                            <p>Price: 145.000 ₫</p>
+                        </li>
+                        <li data-aos="zoom-in">
+                            <div class="box-hover">
+                                <img src="./assets/img/h.png" alt="">
+                                <img src="./assets/img/hh.png" alt="" class="img-change">
+                            </div>     
+                            <h3>kim cương to đùng</h3>
+                            <p>Price: 145.000 ₫</p>
+                        </li>
+                        <!-- More product items -->
+                    </ul>
+                </section>
             </main>
         </div>
     </div>
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./assets/js/header_2.js"></script>
     <script defer src="./assets/js/header_1.js"></script>
 </body>

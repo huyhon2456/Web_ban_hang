@@ -21,3 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     minRange.addEventListener('input', updateRange);
     maxRange.addEventListener('input', updateRange);
 });
+function addToCart() {
+    // Thêm mã xử lý giỏ hàng tại đây
+    window.location.href = 'giohang.html';
+}
