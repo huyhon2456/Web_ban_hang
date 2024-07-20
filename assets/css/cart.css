@@ -3,7 +3,6 @@
     display: block;
     margin: 0 auto;
     background: white;
-    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -107,6 +106,7 @@ h2 {
     font-weight: 600;
     margin: 0 auto;
     width: 60%;
+    border-bottom:1px solid #ddd;
 }
 
 
@@ -136,3 +136,74 @@ h2 {
     border-bottom: 1px soild #ddd ;
 }
 
+.yourCart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 14px;
+    padding: 10px;
+    color: #333333;
+}
+.buymore{
+    color: #288AD6;
+    text-decoration: none;
+    border: none;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+.order-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 14px;
+    padding: 10px;
+    color: #333333;
+
+}
+/* Định dạng form */
+.customer-info {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Định dạng nhãn */
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Định dạng các trường input */
+.input, .textarea, .select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Định dạng button */
+.button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #4cae4c;
+}
